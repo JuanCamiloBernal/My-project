@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: de298e483ca3fc74b8c91402e28d0dff
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Empty: {fileID: 5476543718500924740, guid: 2f2afe787d4e11647b022a0867961fb0, type: 3}
+  - Emptyy: {fileID: 5476543718500924740, guid: 2f2afe787d4e11647b022a0867961fb0, type: 3}
+  - Half: {fileID: 923514691693256344, guid: 9cf5674f062d1d343bb4be8cbfb6e9b8, type: 3}
+  - Halff: {fileID: 923514691693256344, guid: 9cf5674f062d1d343bb4be8cbfb6e9b8, type: 3}
+  - Full: {fileID: 887942637692108584, guid: 5e6e598de4482f04d94bcf9688bb681f, type: 3}
+  - Fulll: {fileID: 887942637692108584, guid: 5e6e598de4482f04d94bcf9688bb681f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
