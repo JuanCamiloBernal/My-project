@@ -39,31 +39,31 @@ public class Disparo : MonoBehaviour
         void carga_skill()
         {
             Instantiate(Bullet_2, transform.position, transform.rotation);
-            //if (Input.GetKey(KeyCode.F))
-            //{
-            //    carga += 1 * Time.deltaTime;
-            //}
+            if (Input.GetKey(KeyCode.F))
+            {
+                carga += 1 * Time.deltaTime;
+            }
 
-            //if (carga >= 1)
-            //{
-            //    carga = 0;
-            //    if (etapa <= 1)
-            //    {
-            //        etapa += 1;
-            //    }
-            //}
-            //if (Input.GetKey(KeyCode.F))
-            //{
-            //    switch (etapa)
-            //    {
-            //        case 1:
-            //            Instantiate(Bullet_2, transform.position, transform.rotation);
-            //            break;
+            if (carga >= 1)
+            {
+                carga = 0;
+                if (etapa <= 1)
+                {
+                    etapa += 1;
+                }
+            }
+            if (Input.GetKey(KeyCode.F))
+            {
+                switch (etapa)
+                {
+                    case 1:
+                        Instantiate(Bullet_2, transform.position, transform.rotation);
+                        break;
 
-            //    }
-            //    carga = 0;
-            //    etapa = 0;
-            //}
+                }
+                carga = 0;
+                etapa = 0;
+            }
         }
 
     }
